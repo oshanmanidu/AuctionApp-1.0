@@ -508,3 +508,4 @@ C:\Users\Administrator\Music\AuctionApp 1.0\AuctionApi\AuctionApi\AuctionApi\obj
 C:\Users\Administrator\Music\AuctionApp 1.0\AuctionApi\AuctionApi\AuctionApi\obj\Debug\net9.0\AuctionApi.pdb
 C:\Users\Administrator\Music\AuctionApp 1.0\AuctionApi\AuctionApi\AuctionApi\obj\Debug\net9.0\AuctionApi.genruntimeconfig.cache
 C:\Users\Administrator\Music\AuctionApp 1.0\AuctionApi\AuctionApi\AuctionApi\obj\Debug\net9.0\ref\AuctionApi.dll
+C:\Users\Administrator\Music\AuctionApp 1.0\AuctionApi\AuctionApi\AuctionApi\obj\Debug\net9.0\AuctionApi.sourcelink.json
