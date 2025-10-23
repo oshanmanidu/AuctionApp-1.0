@@ -23,41 +23,7 @@ namespace AuctionApi.Controllers
             _configuration = configuration;
         }
 
-        //[HttpPost("register")]
-        //public async Task<IActionResult> Register([FromBody] RegisterModel model)
-        //{
-        //    if (await _context.Users.AnyAsync(u => u.Username == model.Username))
-        //    {
-        //        return BadRequest("Username already exists");
-        //    }
-
-        //    var user = new User
-        //    {
-        //        Username = model.Username,
-        //        PasswordHash = BCrypt.Net.BCrypt.HashPassword(model.Password),
-        //        Role = model.Role.ToLower() == "admin" ? "Admin" : "User"
-        //    };
-
-        //    _context.Users.Add(user);
-        //    await _context.SaveChangesAsync();
-
-        //    return Ok("User registered successfully");
-        //}
-
-        //[HttpPost("login")]
-        //public async Task<IActionResult> Login([FromBody] LoginModel model)
-        //{
-        //    var user = await _context.Users
-        //        .FirstOrDefaultAsync(u => u.Username == model.Username);
-
-        //    if (user == null || !BCrypt.Net.BCrypt.Verify(model.Password, user.PasswordHash))
-        //    {
-        //        return Unauthorized("Invalid credentials");
-        //    }
-
-        //    var token = GenerateJwtToken(user);
-        //    return Ok(new { Token = token, Role = user.Role, Username = user.Username });
-        //}
+        
 
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterModel model)
@@ -123,18 +89,7 @@ namespace AuctionApi.Controllers
         }
     }
 
-    //public class RegisterModel
-    //{
-    //    public string Username { get; set; } = string.Empty;
-    //    public string Password { get; set; } = string.Empty;
-    //    public string Role { get; set; } = "User"; // default to User
-    //}
-
-    //public class LoginModel
-    //{
-    //    public string Username { get; set; } = string.Empty;
-    //    public string Password { get; set; } = string.Empty;
-    //}
+    
 
     public class RegisterModel
     {
